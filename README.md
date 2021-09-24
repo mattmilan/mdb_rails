@@ -1,24 +1,24 @@
-# README
+## Purpose
+This repo contains a default skeleton rails app with the minimum additions required to present a functional DEV environment for the style/functional demonstration included with the mdb-ui-kit package.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ensure both puma and ./bin/webpack-dev-server are running.
 
-Things you may want to cover:
+The demo will display at the root url. 
 
-* Ruby version
+## Getting Started
+The repo can be cloned or an existing rails app modified as follows
+#### From the console
+- yarn add jquery @popperjs/core mdb-ui-kit
 
-* System dependencies
+#### Then browse this repo's diffs for
+- app/assets/stylesheets/application.scss (formerly application.css)
+- app/javascript/packs/application.js
+- app/javascript/packs/mdb-ui-kit.js
+- app/views/application.html.erb
+- config/webpacker.yml
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Versions
+[Rails - 6.1.4.1](https://rubyonrails.org/)  |
+[Webpacker - 5.0](https://github.com/rails/webpacker)  |
+[MDB-UI-KIT - 3.9.0](https://mdbootstrap.com/)
